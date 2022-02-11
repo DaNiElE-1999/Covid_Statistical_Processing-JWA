@@ -1,0 +1,41 @@
+body{
+    padding-top: 56px;
+    background: url("../assets/bg.jpg") no-repeat fixed;
+    background-size: cover;
+}
+.jumbotron {
+    background: url("../assets/bg.jpg") no-repeat fixed;
+    background-size: cover;
+    
+}
+.btn-primary {
+    background-color: #ff99cc;
+    border-color: #ff99cc;
+}
+.btn-secondary {
+    background-color: transparent;
+    border-color: #ff99cc;
+    color: #ff99cc;
+}
+#contact,#data {
+   background:rgba(40,40,40,0.45);
+}
+footer div p{
+    color:#ff99cc !important;
+    font-weight: bolder;
+}
+html{
+    user-select: none;
+    transition: all 0.23s ease-in-out;
+    outline: none;
+    scroll-behavior: smooth;
+}
+.active{
+    font-weight: bolder;
+    transition:  all 0.3s ease-in-out;
+  
+}
+
+.active>*{
+    color: #ff99cc !important;
+}
